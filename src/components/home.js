@@ -26,7 +26,7 @@ class Home extends Component {
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} lg={4} xl={4} className="mt-4 mb-2">
-              <Card>
+              <Card className="shadow p-3 bg-white rounded">
                 <Card.Header className="text-center">
                   <h4>Total Case</h4>
                 </Card.Header>
@@ -38,7 +38,7 @@ class Home extends Component {
               </Card>
             </Col>
             <Col xs={12} sm={12} md={6} lg={4} xl={4} className="mt-4 mb-2">
-              <Card>
+              <Card className="shadow p-3 bg-white rounded">
                 <Card.Header className="text-center">
                   <h4>Total Deaths</h4>
                 </Card.Header>
@@ -50,7 +50,7 @@ class Home extends Component {
               </Card>
             </Col>
             <Col xs={12} sm={12} md={6} lg={4} xl={4} className="mt-4 mb-2">
-              <Card>
+              <Card className="shadow p-3 bg-white rounded">
                 <Card.Header className="text-center">
                   <h4>Total Recovered</h4>
                 </Card.Header>
@@ -67,7 +67,7 @@ class Home extends Component {
 
           <Row>
             <Col xs={12} sm={12} md={6} lg={4} xl={4} className="mt-4 mb-2">
-              <Card>
+              <Card className="shadow p-3 bg-white rounded">
                 <Card.Header className="text-center">
                   <h4>Today Case</h4>
                 </Card.Header>
@@ -79,7 +79,7 @@ class Home extends Component {
               </Card>
             </Col>
             <Col xs={12} sm={12} md={6} lg={4} xl={4} className="mt-4 mb-2">
-              <Card>
+              <Card className="shadow p-3 bg-white rounded">
                 <Card.Header className="text-center">
                   <h4>Today Deaths</h4>
                 </Card.Header>
@@ -91,7 +91,7 @@ class Home extends Component {
               </Card>
             </Col>
             <Col xs={12} sm={12} md={6} lg={4} xl={4} className="mt-4 mb-2">
-              <Card>
+              <Card className="shadow p-3 bg-white rounded">
                 <Card.Header className="text-center">
                   <h4>Active Case</h4>
                 </Card.Header>
@@ -109,7 +109,7 @@ class Home extends Component {
 
           <Row>
             <Col xs={12} sm={12} md={6} lg={4} xl={4} className="mt-4 mb-2">
-              <Card>
+              <Card className="shadow p-3 bg-white rounded">
                 <Card.Header className="text-center">
                   <h4>Critical</h4>
                 </Card.Header>
@@ -122,7 +122,7 @@ class Home extends Component {
             </Col>
 
             <Col xs={12} sm={12} md={6} lg={4} xl={4} className="mt-4 mb-2">
-              <Card>
+              <Card className="shadow p-3 bg-white rounded">
                 <Card.Header className="text-center">
                   <h4>Tested Patients</h4>
                 </Card.Header>
@@ -135,7 +135,7 @@ class Home extends Component {
             </Col>
 
             <Col xs={12} sm={12} md={6} lg={4} xl={4} className="mt-4 mb-2">
-              <Card>
+              <Card className="shadow p-3 bg-white rounded">
                 <Card.Header className="text-center">
                   <h4>Affected Countries</h4>
                 </Card.Header>

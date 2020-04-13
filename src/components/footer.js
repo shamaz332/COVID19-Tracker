@@ -27,7 +27,7 @@ class Footer extends Component {
       <div>
         
 <div class="footer">
-  <h2>Last updated   {latestUpdated}</h2>
+  <h2 className="p-2">Last updated   {latestUpdated}</h2>
 </div>
       </div>
     );
