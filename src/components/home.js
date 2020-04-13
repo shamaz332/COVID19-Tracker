@@ -14,7 +14,7 @@ class Home extends Component {
       .get("https://corona.lmao.ninja/all")
       .then((response) => {
         this.setState({ patient: response.data });
-        console.log(response.data);
+        // console.log(response.data);
       })
       .catch((err) => {
         console.log("err");

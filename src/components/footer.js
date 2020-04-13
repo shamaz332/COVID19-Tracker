@@ -14,7 +14,7 @@ class Footer extends Component {
       .get("https://corona.lmao.ninja/all")
       .then((response) => {
         this.setState({ date: response.data });
-        console.log(response.data);
+        // console.log(response.data);
       })
       .catch((err) => {
         console.log("err");
