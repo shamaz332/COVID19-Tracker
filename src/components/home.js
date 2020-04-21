@@ -3,6 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import GoogleMapReact from "google-map-react";
 import axios from "axios";
 import "../App.css";
+
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -12,6 +13,7 @@ class Home extends Component {
       countries: [],
     };
   }
+  
   componentDidMount() {
     axios
       .all([
@@ -28,8 +30,9 @@ class Home extends Component {
         console.log("err");
       });
   }
-
+ 
   render() {
+  
     const allCountry = this.state.countries.map((country, i) => {
       return (
         <div
