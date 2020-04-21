@@ -7,7 +7,7 @@ import './App.css'
 import ReactGa from 'react-ga';
 function App() {
   ReactGa.initialize('UA-164182099-1')
-  ReactGa.pageview(/);
+  ReactGa.pageview("/");
   return (
     <div className="App">
       <div className="image-wrapper">
