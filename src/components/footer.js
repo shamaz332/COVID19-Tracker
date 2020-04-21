@@ -10,7 +10,7 @@ class Footer extends Component {
   }
   componentDidMount() {
     axios
-      .get("https://corona.lmao.ninja/all")
+      .get("https://corona.lmao.ninja/v2/all")
       .then((response) => {
         this.setState({ date: response.data });
         // console.log(response.data);
