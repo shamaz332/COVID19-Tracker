@@ -1,4 +1,4 @@
-body,.header{
+body,.header-box{
   background: #CAC531;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -27,10 +27,8 @@ body,.header{
   display:flex; 
 
 }
-.cc{
-
-
-  background: #CCCCB2;  /* fallback for old browsers */
+.title-box{
+background: #CCCCB2;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #757519, #CCCCB2);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #757519, #CCCCB2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
